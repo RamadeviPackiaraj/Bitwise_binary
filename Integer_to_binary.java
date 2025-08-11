@@ -1,8 +1,8 @@
-import java.util.*;
+import java.util.Scanner;
 public class Integer_to_binary{
     public static String Convert_Binary(int n){
        StringBuilder sb=new StringBuilder();
-        while(n!=1){
+        while(n>0){
             if(n%2==1) sb.append('1');
             else sb.append('0');
             n/=2;
